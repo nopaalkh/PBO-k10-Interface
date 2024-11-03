@@ -1,0 +1,23 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package praktikum10;
+
+/**
+ *
+ * @author ASUS
+ */
+// Kelas Main
+public class Main {
+
+    public static void main(String[] args) {
+        // Objek Penjumlahan
+        OperasiHitung penjumlahan = (OperasiHitung) new Penjumlahan();
+        System.out.println("Penjumlahan: " + penjumlahan.hitung(10,5)); // Output: 15
+        
+        // Objek Pengurangan
+        OperasiHitung pengurangan = (OperasiHitung) new Pengurangan();
+        System.out.println("Pengurangan: " + pengurangan.hitung(10,5)); // Output: 5
+    }
+}
